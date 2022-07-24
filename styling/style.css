@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +12,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+p {
+    color: hsl(215, 51%, 70%);
 }
 .nft-card {
     background: hsl(216, 50%, 16%);
@@ -19,6 +26,8 @@ body {
     width: auto;
     height: auto;
     margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
 }
 .img-container {
     width: 300px;
@@ -28,15 +37,53 @@ body {
     align-items: center;
 }
 .img-container > img {
-    width: 270px;
+    width: 280px;
+    border-radius: 5px;
 }
 main {
     width: 300px;
     height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 main > h1 {
-    
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
 }
+main > p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
+.price-container > p {
+    font-size: 18px;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 105px;
+}
+.line {
+    width: 280px;
+    background: hsl(215, 32%, 27%);
+    height: 3px;
+}
+
+
 
 .attribution { 
     font-size: 11px; 
@@ -48,12 +95,7 @@ main > h1 {
 }
 
 .saw {
-color: hsl(215, 51%, 70%),
-hsl(178, 100%, 50%)
+color: 
 
-
-
-- Very dark blue (card BG): 
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
+- Very dark blue (line): 
 }
