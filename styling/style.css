@@ -29,6 +29,7 @@ p {
     margin: 50px auto;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0px 20px 12px 10px hsl(216, 60%, 9%);
 }
 .img-container {
     width: 300px;
@@ -41,8 +42,8 @@ p {
     background: hsl(178, 100%, 50%);
 }
 .img-container > img {
-    width: 290px;
-    height: 270px;
+    width: 300px;
+    height: 280px;
     border-radius: 5px;
 }
 main {
@@ -123,105 +124,27 @@ main > p {
     color: hsl(178, 100%, 50%); 
 }
 
-@media only screen and (min-width: 1440px) {
-    p {
-        color: hsl(215, 51%, 70%);
-    }
+@media only screen and (max-width: 480px) {
     .nft-card {
-        background: hsl(216, 50%, 16%);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: auto;
-        height: auto;
         margin: 50px auto;
-        padding: 10px;
-        border-radius: 10px;
-        box-shadow: 0px 20px 12px 10px hsl(216, 60%, 9%);
+        padding: 20px;
     }
     .img-container {
         width: 300px;
         height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .img-container > img:hover {
-        background: hsl(178, 100%, 50%);
     }
     .img-container > img {
-        width: 300px;
-        height: 280px;
+        width: 280px;
+        height: 290px;
         border-radius: 5px;
     }
     main {
-        width: 320px;
+        width: 300px;
         height: 250px;
         padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    main > h1 > a {
-        color: hsl(0, 0%, 100%);
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 20px;
-    }
-    main > h1 > a:hover {
-        color: hsl(178, 100%, 50%);
-    }
-    main > p {
-        font-size: 18px;
-        color: hsl(215, 51%, 70%);
-    }
-    .price-container {
-        display: flex;
-        justify-content: space-between;
-    }
-    .price-container > p {
-        font-size: 18px;
-    }
-    .price {
-        color: hsl(178, 100%, 50%);
-        font-weight: 400;
-        display: flex;
-        justify-content: space-between;
-        width: 100px;
-    }
-    .count {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 105px;
-    }
-    .line {
-        width: 280px;
-        background: hsl(215, 32%, 27%);
-        height: 2px;
-    }
-    .owner-attribution {
-        display: flex;
-        align-items: center;
-        height: 40px;
-    }
-    .owner-attribution > a {
-        color: hsl(0, 0%, 100%);
-        margin-left: 5px;
-        text-decoration: none;
-    }
-    .owner-attribution > a:hover {
-        color: hsl(178, 100%, 50%);
-    }
-    .avatar {
-        height: 40px;
-        border: 2px solid hsl(0, 0%, 100%);
-        border-radius: 50%;
-        margin-right: 15px;
     }
     .attribution { 
-        font-size: 18px; 
+        font-size: 10px; 
         text-align: center;
         margin-bottom: 100px;
         color: hsl(0, 0%, 100%); 
@@ -233,3 +156,4 @@ main > p {
         color: hsl(178, 100%, 50%); 
     }
 }
+    
