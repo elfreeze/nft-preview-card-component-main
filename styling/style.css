@@ -138,17 +138,32 @@ p {
         height: 250px;
         padding: 10px;
     }
-    .attribution { 
-        font-size: 10px; 
-        text-align: center;
-        margin-bottom: 100px;
-        color: hsl(0, 0%, 100%); 
+}
+@media only screen and (max-width: 380px) {
+    .card {
+        width: 280px;
+        padding: 10px;
+        margin-block-start: 50px;
+        border-radius: 15px;
+        box-shadow: 0px 20px 12px 10px hsl(216, 60%, 9%);
     }
-    .attribution a { 
-        color: hsl(0, 0%, 100%); 
+    .img-container > img {
+        width: 240px;
     }
-    .attribution a:hover { 
-        color: hsl(178, 100%, 50%); 
+    .content {
+        height: 250px;
+        padding: 10px 40px;
+    }
+    .line {
+        width: 230px;
+        place-self: center;
+    }
+    .owner-attribution {
+        font-size: 15px;
+        width: 230px;
+        place-self: center;
+    }
+    .attribution {
+        font-size: 12px;
     }
 }
-    */
