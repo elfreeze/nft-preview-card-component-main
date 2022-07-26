@@ -14,10 +14,10 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Outfit', sans-serif;
-    padding: 20px auto;
 }
 p {
     color: hsl(215, 51%, 70%);
+    font-size: 18px;
 }
 .card {
     background: hsl(216, 50%, 16%);
@@ -62,12 +62,13 @@ p {
     color: hsl(178, 100%, 50%);
 }
 .description {
-    font-size: 18px;
-    color: hsl(215, 51%, 70%);
+    background: red;
+    width: 290px;
 }
 .price-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .price-container > p {
     font-size: 18px;
@@ -123,7 +124,7 @@ p {
 }
 
 @media only screen and (max-width: ) {
-    .nft-card {
+    .card {
         margin: 50px auto;
         padding: 20px;
     }
@@ -136,7 +137,7 @@ p {
         height: 290px;
         border-radius: 5px;
     }
-    main {
+    .content {
         width: 300px;
         height: 250px;
         padding: 10px;
