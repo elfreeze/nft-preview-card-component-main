@@ -26,6 +26,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin-block-start: 50px;
     border-radius: 15px;
     box-shadow: 0px 20px 12px 10px hsl(216, 60%, 9%);
 }
@@ -46,7 +47,7 @@ p {
 }
 .content {
     width: 300px;
-    height: 250px;
+    height: 220px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -62,8 +63,7 @@ p {
     color: hsl(178, 100%, 50%);
 }
 .description {
-    background: red;
-    width: 290px;
+    font-size: 16px;
 }
 .price-container {
     display: flex;
@@ -71,25 +71,31 @@ p {
     align-items: center;
 }
 .price-container > p {
-    font-size: 18px;
+    font-size: 16px;
 }
 .price {
     color: hsl(178, 100%, 50%);
     font-weight: 400;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     width: 100px;
+}
+.price > img {
+    margin-inline-end: 10px;
 }
 .count {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    align-items: center;
     width: 105px;
+}
+.count > img {
+    margin-inline-end: 10px;
 }
 .line {
     width: 280px;
     background: hsl(215, 32%, 27%);
-    height: 2px;
+    height: 1px;
 }
 .owner-attribution {
     display: flex;
@@ -113,7 +119,7 @@ p {
 .attribution { 
     font-size: 18px; 
     text-align: center;
-    margin-bottom: 100px;
+    margin-top: 50px;
     color: hsl(0, 0%, 100%); 
 }
 .attribution a { 
@@ -123,7 +129,7 @@ p {
     color: hsl(178, 100%, 50%); 
 }
 
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 660px) {
     .card {
         margin: 50px auto;
         padding: 20px;
@@ -155,4 +161,4 @@ p {
         color: hsl(178, 100%, 50%); 
     }
 }
-    
+    */
